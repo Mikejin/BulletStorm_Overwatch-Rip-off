@@ -8,16 +8,15 @@ ult_soldier76();
 
 if running
 {
-	moveSpeed = 6.2 + global.weaponArray[arm,17] + crouchMod
+	moveSpeed = 6.2 + crouchMod
 	var dash = instance_create_depth(x,y,depth,oDashEffect);
 	dash.sprite_index = sprite_index;
-	dash.image_index = image_index;
+	dash.image_index = team-1;
 }
 else
 {
-	moveSpeed = 2.8 + global.weaponArray[arm,17] + crouchMod
+	moveSpeed = 2.8 + crouchMod
 }
-
 
 if inUlt //“我看到你了”
 {

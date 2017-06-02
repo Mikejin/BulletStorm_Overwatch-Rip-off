@@ -1,3 +1,3 @@
-hasTarget = false;
+//hasTarget = false;
 
 

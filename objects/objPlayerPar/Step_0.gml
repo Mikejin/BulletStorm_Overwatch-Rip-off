@@ -1,4 +1,4 @@
-sprite_index = global.color[playerNumber];
+sprite_index = global.heroArray[heroNumber,5];
 //gamepad move
 if (gamepad_is_connected(playerNumber))
 {
@@ -18,7 +18,6 @@ scr_crouch();
 //SHOOT
 
 scr_collisions();
-
 }
 
 
@@ -68,8 +67,12 @@ if progress >= reloadTime
 	reloading = 0;
 	progress = 0;
 	//ammo -= global.weaponArray[arm,7]; 
-	clipAmmo = global.weaponArray[arm,7] 
+	clipAmmo = clipAmount; 
 	}
+if clipAmmo > clipAmount
+{
+	clipAmmo = clipAmount; //避免弹药溢出
+}
 
 //大招蓄力
 if ultimateCharge < ultimageMax 
@@ -138,7 +141,7 @@ if hp < 0
 				direction = random(360);
 				image_angle = direction;
 				speed = random_range(4,8);
-				sprite_index = other.sprite_index;
+				sprite_index = choose(sprPlayerR,sprPlayerR2);
 				image_xscale = random_range(0.4,0.8);
 				image_yscale = random_range(0.4,0.8);
 				alphaDamp = 0.01;

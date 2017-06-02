@@ -21,11 +21,11 @@ if other.bulletFrom != id  and !dashing and alive
 		//检查护甲
 		if armor >0 
 		{
-		armor -= takeDamage
+		armor -= takeDamage * (1-damageReduction)
 		}
 		else
 		{
-		hp -= takeDamage
+		hp -= takeDamage * (1-damageReduction)
 		}
 		var damageNumber = instance_create_depth(x,y-30+random_range(-2,12),-1111,objDamage)
 		damageNumber.number = takeDamage;

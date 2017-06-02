@@ -2,6 +2,7 @@ hp = 100;
 hpMax = 400;
 
 armor = 0;
+damageReduction = 0;
 
 playerNumber = 0;
 team = 0;

@@ -14,11 +14,10 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 			alarm[0] = fireRate;
 			var i;
 			for (i =0; i < global.weaponArray[arm,11]; i ++) 
-				{
-							
+				{					
 					{
 					//朝准星飞的子弹
-					with (instance_create_depth(weapon.x+lengthdir_x(global.weaponArray[arm,4],weapon.image_angle),weapon.y+lengthdir_y(global.weaponArray[arm,4],weapon.image_angle),-10,bulletType))		
+					with (instance_create_depth(weapon.x+lengthdir_x(weaponOffset,weapon.image_angle),weapon.y+lengthdir_y(weaponOffset,weapon.image_angle),-10,bulletType))		
 					//子弹偏移
 					{
 						direction = other.weapon.image_angle+random_range(-(other.inaccuracy+other.fireUnstable),other.inaccuracy+other.fireUnstable);

@@ -17,17 +17,16 @@ for (var i=0;i<instance_number(objPlayerPar);i++)
 		{
 			
 			if alive = true
-			{
-				
+			{	
 				if (hit) 
 				{ 
 				    shader_set(shader_0);    // Sets the shader to our shader file we created earlier
-				    draw_sprite_ext(global.color[playerNumber],image_index,x,y,scaleH,scaleV,rot,c_white,1)  // Draws the sprite, but now we have a shader set so it draws it as white
-				    shader_reset(); // Resets the shader to the default one (does nothing)
+				    draw_sprite_ext(sprite_index,team-1,x,y,scaleH,scaleV,rot,c_white,1)  // Draws the sprite, but now we have a shader set so it draws it as white
+					shader_reset(); // Resets the shader to the default one (does nothing)
 				} 
 				else 
 				{
-				    draw_sprite_ext(global.color[playerNumber],image_index,x,y,scaleH,scaleV,rot,c_white,1) // If hit is false, no shader is applied.
+				    draw_sprite_ext(sprite_index,team-1,x,y,scaleH,scaleV,rot,c_white,1) // If hit is false, no shader is applied.
 				}
 				//draw武器
 				//翻转武器

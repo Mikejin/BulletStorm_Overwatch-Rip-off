@@ -5,7 +5,7 @@ if instance_exists(belongsTo)
 	y = belongsTo.y
 	
 	//根据玩家武器决定视野大小远近
-	image_xscale = global.weaponArray[belongsTo.arm,16];
+	image_xscale = belongsTo.viewXscale;
 
 	image_angle = belongsTo.cursor.image_angle;
 	

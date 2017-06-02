@@ -503,19 +503,19 @@
             }
         },
         {
-            "Key": "2ce91db8-b132-4a29-851c-ff9efde8934e",
-            "Value": {
-                "id": "e6da40e7-e11d-4c3e-9da5-739bc5fb63bd",
-                "resourcePath": "sprites\\sprWeaponHeavyMachineGun\\sprWeaponHeavyMachineGun.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2d027d36-bd54-4751-aaac-6029a16c1fb3",
             "Value": {
                 "id": "a041e30e-8d34-4c4e-93f4-5778b41bc501",
                 "resourcePath": "fonts\\ft_overwatchBig\\ft_overwatchBig.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2d4934cc-6915-4236-849a-ccdf338e91ca",
+            "Value": {
+                "id": "596d48b5-97ba-45da-ae7d-7a51945e88df",
+                "resourcePath": "scripts\\ult_reinhardt\\ult_reinhardt.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "3c9683a0-6b8e-48ce-b48e-96d6bbb06170",
+            "Value": {
+                "id": "6e3ae754-8294-4311-ab32-0d1f70c10871",
+                "resourcePath": "sprites\\sprPlayerSoldier76\\sprPlayerSoldier76.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3cc76d8f-452a-4e37-98ab-cbadb15def36",
             "Value": {
                 "id": "61c209f6-b679-4139-a3e7-56cada454396",
@@ -748,6 +756,14 @@
                 "id": "8fbe3294-48a6-493c-9a81-17365653b471",
                 "resourcePath": "sprites\\sprPlayerR2\\sprPlayerR2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f1fb647-56df-4ad3-a0aa-04b91cbf7348",
+            "Value": {
+                "id": "7dca2cfe-fe48-485c-85e6-329540388cea",
+                "resourcePath": "views\\3f1fb647-56df-4ad3-a0aa-04b91cbf7348.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -967,14 +983,6 @@
             }
         },
         {
-            "Key": "50e43c4a-bbe5-4806-8fee-ae2abc5f2f2f",
-            "Value": {
-                "id": "b34fa305-ce48-431c-8644-db3211a1b508",
-                "resourcePath": "views\\50e43c4a-bbe5-4806-8fee-ae2abc5f2f2f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "523829f9-949b-40f1-873e-04e3b8084c93",
             "Value": {
                 "id": "922f2645-3831-4463-808a-173dc9ec483e",
@@ -1075,6 +1083,14 @@
             "Value": {
                 "id": "13401a18-3590-4626-b717-dcf31df7c5a5",
                 "resourcePath": "sprites\\sprCursor\\sprCursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c6c965e-b12a-4af2-9458-7225060a705c",
+            "Value": {
+                "id": "1928a4fe-3491-4d74-9246-b9d9747944f6",
+                "resourcePath": "sprites\\sprGunBastion\\sprGunBastion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1255,6 +1271,14 @@
             }
         },
         {
+            "Key": "6b4ae267-f40f-419b-8eda-4d746308d8b4",
+            "Value": {
+                "id": "b3a7a3ea-7fc7-4922-91fb-83844720d137",
+                "resourcePath": "scripts\\ult_bastion\\ult_bastion.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6c1ecda2-b7de-433d-b3ae-7ced389d7e92",
             "Value": {
                 "id": "8200a398-abff-497e-9653-fbb55dc9be87",
@@ -1407,6 +1431,14 @@
             }
         },
         {
+            "Key": "7a00d4de-d59e-4997-99fc-9f299c87cf9c",
+            "Value": {
+                "id": "bf97968f-229b-4ec4-aa80-7879636afc8e",
+                "resourcePath": "objects\\oBastionRocket\\oBastionRocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b7888b9-8820-4686-af44-61282f10f6b7",
             "Value": {
                 "id": "d357858e-aa17-43b9-8d94-88cbc00f8ebc",
@@ -1428,6 +1460,14 @@
                 "id": "a141e3aa-83e2-4444-b44b-ffe4a4a69162",
                 "resourcePath": "scripts\\scr_move_gamepad\\scr_move_gamepad.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7c2580d3-b6d3-4b4f-85e6-27f9c54e5cf7",
+            "Value": {
+                "id": "88a95156-1f66-4847-88cb-e1ed1ed10886",
+                "resourcePath": "sprites\\sprPlayerReinhardt\\sprPlayerReinhardt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1476,6 +1516,14 @@
                 "id": "324a0281-5144-4685-a1b6-ef2b4c052966",
                 "resourcePath": "scripts\\scr_killText\\scr_killText.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "801023c6-da8b-4cd2-ac0a-696f33b22cab",
+            "Value": {
+                "id": "394cde8c-4940-4596-aa08-311d445bd81f",
+                "resourcePath": "sprites\\sprBastionUlt\\sprBastionUlt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1751,6 +1799,14 @@
             }
         },
         {
+            "Key": "9192214f-8337-4890-bc34-75f780b9c494",
+            "Value": {
+                "id": "af1cc5b2-15f8-41fd-872c-20305f51b467",
+                "resourcePath": "sprites\\sprPlayerTracer\\sprPlayerTracer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92680015-c918-4276-b53f-5d9dff3b4716",
             "Value": {
                 "id": "3a0f15bc-539e-4b24-be46-d57eaad2eba0",
@@ -1959,6 +2015,14 @@
             }
         },
         {
+            "Key": "a0ad1218-1e76-4816-b0e1-8d1d26301c24",
+            "Value": {
+                "id": "f03416a3-c161-4a72-af51-763e247daff5",
+                "resourcePath": "sprites\\sprSwordBig\\sprSwordBig.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a21b81fb-9daa-4eb3-bff6-b4c7daa86166",
             "Value": {
                 "id": "da07af51-aad7-49e1-8f1f-36bb6ba80eaf",
@@ -1972,14 +2036,6 @@
                 "id": "1e226e14-5fbb-4bba-b702-5a4f96ad6b38",
                 "resourcePath": "sprites\\sprSandBadShootingPos\\sprSandBadShootingPos.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a44083a2-4c75-4a80-a6c2-7cefec05b6f7",
-            "Value": {
-                "id": "aae4299d-df59-46f8-bb60-9d70f664c9c6",
-                "resourcePath": "objects\\objExcMark\\objExcMark.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2004,6 +2060,14 @@
                 "id": "f115e63f-a8e7-4bae-be07-1f0030b725ca",
                 "resourcePath": "sprites\\sprTracerBomb\\sprTracerBomb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a52a4102-9cb8-4111-91b0-13ac9fbd1302",
+            "Value": {
+                "id": "d6012aaa-57f2-4968-a0b1-c90e99ed8e7a",
+                "resourcePath": "views\\a52a4102-9cb8-4111-91b0-13ac9fbd1302.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2139,6 +2203,14 @@
             "Value": {
                 "id": "820e1aef-ddf5-42d0-991f-f62b7a8c6df0",
                 "resourcePath": "objects\\objWeaponSniper\\objWeaponSniper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b71e129b-56ea-4d68-8cf5-6ac9e7c89af5",
+            "Value": {
+                "id": "9a2433d8-5c59-465d-8ce5-1b08e8169d86",
+                "resourcePath": "objects\\oHeroBastion\\oHeroBastion.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2519,6 +2591,14 @@
             }
         },
         {
+            "Key": "d5bc14d2-4623-479b-bfdf-55188548179a",
+            "Value": {
+                "id": "053b059d-23c6-4ec1-ac53-22a33fcf9f2c",
+                "resourcePath": "objects\\oHeroGenji\\oHeroGenji.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6d7b873-5426-401a-aeb7-f4720420db6b",
             "Value": {
                 "id": "26666112-773a-4944-a983-1aec0bc4e35c",
@@ -2743,6 +2823,14 @@
             }
         },
         {
+            "Key": "e6d5302c-c4da-49d3-91e9-257786e2e6a4",
+            "Value": {
+                "id": "891ba1d9-643f-4c67-9f87-884dab952f18",
+                "resourcePath": "sprites\\sprPlayerBastion\\sprPlayerBastion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7a99941-fb66-45bc-aa8b-734f71f6e976",
             "Value": {
                 "id": "ba6f2273-5726-4504-a22b-5df2e72bf994",
@@ -2804,6 +2892,14 @@
                 "id": "b5d711b1-b583-44d8-a487-00ffec25fcea",
                 "resourcePath": "notes\\compatibility_report_090517_1530123012.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "edf3c4a5-d561-4041-a8e9-511141387405",
+            "Value": {
+                "id": "ff9f7fdd-c6e1-41ba-8730-638c9c3f6d4d",
+                "resourcePath": "sprites\\sprGunBunker\\sprGunBunker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2915,6 +3011,14 @@
             "Value": {
                 "id": "d2d34bf7-9360-46c0-910e-b2114e141279",
                 "resourcePath": "scripts\\ease_in_quad\\ease_in_quad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f85aafe0-315f-406d-9164-6ea9c07c1f96",
+            "Value": {
+                "id": "86682e83-8ee9-4a29-a588-b8df9f497203",
+                "resourcePath": "scripts\\skill_bastion\\skill_bastion.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3146,8 +3250,11 @@
         "3d80734a-acdb-461f-aa6d-f348a860ef78",
         "ef5d1bda-a540-4995-bb74-d3613151fbec",
         "d2533802-1c55-47f7-bea6-f4e088633905",
+        "2d4934cc-6915-4236-849a-ccdf338e91ca",
+        "6b4ae267-f40f-419b-8eda-4d746308d8b4",
         "f180d149-756c-41fc-95bc-5627e4cc0986",
-        "71d64b02-b543-474f-af8f-8d197c42e7fe"
+        "71d64b02-b543-474f-af8f-8d197c42e7fe",
+        "f85aafe0-315f-406d-9164-6ea9c07c1f96"
     ],
     "tutorial": ""
 }

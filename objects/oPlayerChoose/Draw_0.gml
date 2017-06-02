@@ -18,7 +18,8 @@ if view_current = playerNumber
 	
 	var viewh = camera_get_view_width(playerNumber)
 	var viewv = camera_get_view_height(playerNumber)
-	draw_sprite(sprGameTitle,0,x+viewh/2,y)
+	//游戏标题
+	//draw_sprite(sprGameTitle,0,x+viewh/2,y)
 	//开始倒计时
 	
 	draw_set_font(ft_overwatchBig)

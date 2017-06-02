@@ -1,2 +1,1 @@
-/// @description skillReady = true
-skillReady = true;
+/// @description 留给角色技能用的表
