@@ -1,0 +1,5 @@
+Converting GML script : ${project_dir}\scripts\approach\approach.gml
+Converted description : /// @description approach(current, target, amount)/// @function approach
+/// @param current
+/// @param  target
+/// @param  amount

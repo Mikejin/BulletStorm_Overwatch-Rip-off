@@ -1,0 +1,1 @@
+image_speed = random_range(0.4,1.5);

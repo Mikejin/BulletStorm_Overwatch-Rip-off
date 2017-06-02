@@ -1,0 +1,46 @@
+Converting GML script : ${project_dir}\scripts\scr_target_first\scr_target_first.gml
+Converted description : /// @description  scr_target_first(target,n)/// @function  scr_target_first
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_strongest\scr_target_strongest.gml
+Converted description : /// @description  scr_target_strongest(target,n)/// @function  scr_target_strongest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_fastest\scr_target_fastest.gml
+Converted description : /// @description  scr_target_fastest(target,n);/// @function  scr_target_fastest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_furthest\scr_target_furthest.gml
+Converted description : /// @description  scr_target_furthest(target,n)/// @function  scr_target_furthest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_slowest\scr_target_slowest.gml
+Converted description : /// @description  scr_target_slowest(target,n);/// @function  scr_target_slowest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_custom\scr_target_custom.gml
+Converted description : /// @description scr_target_custom(target,n)/// @function scr_target_custom
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_weakest\scr_target_weakest.gml
+Converted description : /// @description  scr_target_weakest(target,n)/// @function  scr_target_weakest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_closest\scr_target_closest.gml
+Converted description : /// @description  scr_target_closest(target,n)/// @function  scr_target_closest
+/// @param target
+/// @param n
+
+Converting GML script : ${project_dir}\scripts\scr_target_last\scr_target_last.gml
+Converted description : /// @description  scr_target_last(target,n)/// @function  scr_target_last
+/// @param target
+/// @param n
+
+updated compatibility script __global_object_depths.gml

@@ -1,0 +1,31 @@
+Converting GML script : ${project_dir}\scripts\bhpg_bullet_init\bhpg_bullet_init.gml
+Converted description : /// @description bhpg_bullet_init(bullet object, bullet speed, bullet acceleration, bullet curve);/// @function bhpg_bullet_init
+/// @param bullet object
+/// @param  bullet speed
+/// @param  bullet acceleration
+/// @param  bullet curve
+
+Converting GML script : ${project_dir}\scripts\bhpg_pattern_init\bhpg_pattern_init.gml
+Converted description : /// @description bhpg_pattern_init(number of bullets, bullet spread, start angle, total arrays, array spread, begin spin speed, spin change rate, spin reverse, max spin speed, fire rate, object width,object height,x offset,y offset)/// @function bhpg_pattern_init
+/// @param number of bullets
+/// @param  bullet spread
+/// @param  start angle
+/// @param  total arrays
+/// @param  array spread
+/// @param  begin spin speed
+/// @param  spin change rate
+/// @param  spin reverse
+/// @param  max spin speed
+/// @param  fire rate
+/// @param  object width
+/// @param object height
+/// @param x offset
+/// @param y offset
+
+Converting GML script : ${project_dir}\scripts\bhpg_pattern_step\bhpg_pattern_step.gml
+Converted description : /// @description bhpg_pattern_step()/// @function bhpg_pattern_step
+
+added compatibility script action/action_current_room.gml
+added compatibility script action/action_kill_object.gml
+added compatibility script action/__init_action.gml
+updated compatibility script __global_object_depths.gml
