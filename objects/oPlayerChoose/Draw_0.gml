@@ -3,16 +3,16 @@ draw_text(x,y+20,x);
 draw_text(x,y+80,y);
 if view_current = playerNumber
 {
-	draw_sprite_stretched(sprHeroSelectBackground,0,x,y,1080,810)	
+	draw_sprite_stretched(sprHeroSelectBackground,0,x,y,800,600)	
 	for (var i=0; i <objGame.heroCount; i ++)
 	{
 		if i = curPick
 		{	
-		draw_sprite_ext(global.heroArray[i,1],0,x+120+168*i,y+250,1.2,1.2,0,c_white,0.9);
+		draw_sprite_ext(global.heroArray[i,1],0,x+80+128*i,y+150,0.9,0.9,0,c_white,0.9);
 		}
 		else
 		{
-		draw_sprite_ext(global.heroArray[i,1],0,x+120+168*i,y+250,1,1,0,c_white,0.9);
+		draw_sprite_ext(global.heroArray[i,1],0,x+80+128*i,y+150,0.7,0.7,0,c_white,0.9);
 		}
 	}
 	

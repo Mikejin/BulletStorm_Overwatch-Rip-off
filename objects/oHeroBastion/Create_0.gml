@@ -18,6 +18,9 @@ reloadTime = 2.2 * room_speed;
 weaponOffset = 38;
 viewXscale = 2.7;
 
+//大招相关
+ultimageMax = 2050;
+
 //特殊属性
 transforming = false;
 transformTime = room_speed *1.25 ;

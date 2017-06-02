@@ -17,6 +17,8 @@ bulletType = objBulletRapid;
 reloadTime = 1.2 * room_speed;
 weaponOffset = 30;
 viewXscale = 2.0;
+//大招相关
+ultimageMax = 1450;
 
 //特殊属性
 

@@ -18,7 +18,6 @@ global.color[4] = sprPlayerR;
 global.teamColor[0] = c_maroon;
 global.teamColor[1] = c_blue;
 
-
 //英雄表
 scr_heroArray();
 

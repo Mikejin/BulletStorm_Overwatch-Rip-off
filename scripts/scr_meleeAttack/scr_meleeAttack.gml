@@ -13,6 +13,5 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 		meleeEffect.team = team;
 		meleeEffect.damage = meleeDamage;
 		alarm[0] = fireRate;
-	
 		}
 }

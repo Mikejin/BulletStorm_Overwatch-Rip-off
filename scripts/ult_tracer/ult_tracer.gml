@@ -5,7 +5,8 @@ if ultReady = true and (gamepad_button_check_pressed(playerNumber, gp_face3))
 	ultActivation.belongsTo = id;
 	
 	//放炸弹
-	instance_create_depth(x,y,depth,oTracerBomb)
+	with instance_create_depth(x,y,depth,oTracerBomb)
+	team = other.team
 	
 	//清除能量
 	ultReady = false;

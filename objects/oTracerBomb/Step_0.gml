@@ -9,6 +9,7 @@ image_yscale = scale;
 if impact = true
 {
 	with objPlayerPar
+	if team != other.team
 	{
 	var dis = point_distance(x,y,other.x,other.y)
 	if dis < other.impactRange

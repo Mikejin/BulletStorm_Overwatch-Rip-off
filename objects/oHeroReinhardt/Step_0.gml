@@ -7,12 +7,12 @@ moveSpeed = 2.9 + crouchMod
 }
 else
 {
-moveSpeed = 1.5 + crouchMod
+moveSpeed = 1.2 + crouchMod
 }
 
 skill_reinhardt();
+//同步盾牌生命值
 shieldHP = shield.hp;
-shieldHPMax = shield.hpMax;
 
 ult_reinhardt();
 if !inUlt  //普通状态

@@ -3,6 +3,7 @@ basicDamage = 100;
 extraDamage = 150;
 
 impact = false;
+team = noone;
 
 //VARIABLES
 scale = 0; //The scale of the object

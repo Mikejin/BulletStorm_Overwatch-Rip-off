@@ -17,6 +17,9 @@ reloadTime = 1.2 * room_speed;
 weaponOffset = 40;
 viewXscale = 0.5;
 
+//大招相关
+ultimageMax = 1750;
+
 //特殊属性
 meleeEffect = noone;
 shield = instance_create_depth(x,y,depth,oShieldShield)

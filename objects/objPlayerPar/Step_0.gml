@@ -77,7 +77,7 @@ if clipAmmo > clipAmount
 //大招蓄力
 if ultimateCharge < ultimageMax 
 {
-	ultimateCharge += 5/room_speed
+	ultimateCharge += 4/room_speed
 }
 else
 {
