@@ -37,7 +37,7 @@ for (var i=0;i<instance_number(objPlayerPar);i++)
 }
 //DEBUG专用
 draw_set_font(ft_overwatch)
-draw_text(x,y,ultimateCharge);
+//draw_text(x,y,ultimateCharge);
 //draw_text(x,y+40,string(target));
 //draw_text(x,y+60,string(shootTargetX));
 //draw_text(x,y+60,string(targeting));

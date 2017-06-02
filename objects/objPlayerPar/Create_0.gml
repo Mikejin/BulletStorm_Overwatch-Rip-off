@@ -27,7 +27,7 @@ canThrow= true;
 canCrouch = true;
 cover = noone;
 
-ultimateCharge = 1999;
+ultimateCharge = 0;
 ultimageMax = 2000;
 ultReady = false;
 
