@@ -1,7 +1,9 @@
 event_inherited();
+if alive = true
+{
 scr_shoot();
-
-moveSpeed = 3.2 + crouchMod
+moveSpeed = (2.7 + crouchMod) * (1+moveMod)
 
 skill_tracer();
 ult_tracer();
+}

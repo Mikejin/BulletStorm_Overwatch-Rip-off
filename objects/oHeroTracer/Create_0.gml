@@ -4,7 +4,7 @@ event_inherited();
 hp =  300;
 hpMax = 300;
 arm = 5;
-moveSpeed = 3.2 + crouchMod
+moveSpeed = 3.0 + crouchMod
 
 heroNumber = 1;
 weaponSprite = sprGunRapidGun;
@@ -16,9 +16,10 @@ clipAmount = 16;
 bulletType = objBulletRapid;
 reloadTime = 1.2 * room_speed;
 weaponOffset = 30;
+damping = 0.018
 viewXscale = 2.0;
 //大招相关
-ultimageMax = 1450;
+ultimageMax = 1250;
 
 //特殊属性
 

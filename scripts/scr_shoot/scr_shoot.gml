@@ -1,3 +1,4 @@
+
 //SHOOT
 if (gamepad_button_check(playerNumber, gp_shoulderr))
 {
@@ -25,8 +26,10 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 						speed = other.bulletSpeed;
 						bulletFrom = other.id;
 						bulletTeam = other.team;
-						damage = other.bulletDamage;
-						damageDamping = damage* damping
+						damage = other.bulletDamage * (1+ other.damageMod);
+						initDamage = other.bulletDamage;
+						//这里先算出子弹需要每帧减少伤害的固定量
+						damageDamping = damage* other.damping
 						aim = other.target; //辅助瞄准
 	
 					}

@@ -2,7 +2,19 @@ speed += accel;
 direction += curve;
 image_angle = direction;
 
-damage -= damageDamping
+damage -= damageDamping;
+//如果伤害不足0.3倍就开始渐隐
+if damage/initDamage <= 0.3
+{
+	if image_alpha > 0.5
+	{
+		image_alpha -= 0.05;
+	}
+	else
+	{
+	instance_destroy();
+	}
+}
 
 if hitSth = true  //消失
 {
@@ -14,15 +26,18 @@ if hitSth = true  //消失
 				image_angle = direction;
 				speed = random_range(1,3);
 				sprite_index = other.sprite_index;
-				image_xscale = random_range(0.8,1.6);
-				image_yscale = image_xscale * choose(-1.6,1.6)
+				image_xscale = random_range(0.7,1.4);
+				image_yscale = image_xscale * choose(-1.4,1.4)
 				alphaDamp = 0.04;
 				speedShrink = 0.95;
 			}
 	}
 	if hitPlayer = true
 	{
+		if bulletFrom.inUlt = false
+		{
 		bulletFrom.ultimateCharge += damage;
+		}
 	}
 	instance_destroy();
 }
@@ -34,6 +49,7 @@ if lower > random(100)
 	if height >0 {height -= fallSpeed;}
 } 
 
+//动画播放规则
 if image_index <= image_number -1
 {
 	image_speed = 0;

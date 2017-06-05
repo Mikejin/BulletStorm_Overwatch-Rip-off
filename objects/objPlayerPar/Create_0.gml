@@ -14,20 +14,25 @@ bulletSpeed = 10;
 bulletDamage = 10;
 bulletType = objBulletPistol;
 reloadTime = 3 * room_speed;
+rotSpeed = 10;
+moveMod = 0;
 
 alive = true;
+
+//移动相关
+magnitude = 0
+threshold = 0
+xaxis = 0;
+yaxis = 0;
 
 //是否被击中
 hit = false;
 behindCover = 0;
 
-isThrowing = 0;
-
-canThrow= true;
 canCrouch = true;
 cover = noone;
 
-ultimateCharge = 0;
+ultimateCharge = 1800;
 ultimageMax = 2000;
 ultReady = false;
 
@@ -71,6 +76,7 @@ scale_y = 0;
 arm = 0;
 fireUnstable = 0;
 moveDeviationMod = 10;
+damageMod = 0;
 firing = false;
 
 //投掷目标

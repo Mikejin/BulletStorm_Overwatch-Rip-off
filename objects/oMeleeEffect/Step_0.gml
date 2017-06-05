@@ -6,3 +6,11 @@ if belongsTo != noone
 	image_angle = belongsTo.weapon.image_angle;
 }
 
+if hitPlayer = true
+	{
+		if belongsTo.inUlt = false
+		{
+		belongsTo.ultimateCharge += damage;
+		instance_destroy();
+		}
+	}

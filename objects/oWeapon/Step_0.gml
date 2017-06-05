@@ -11,7 +11,7 @@ weapon = belongsTo.arm;
 	aD = angle_difference(point_direction(x,y, belongsTo.cursor.x, belongsTo.cursor.y),image_angle);
 	}
 	//转向速度，平均是6左右
-	image_angle += median(-10,aD,10);
+	image_angle += median(-belongsTo.rotSpeed,aD,belongsTo.rotSpeed);
 	
 //翻转武器
 if (belongsTo.cursor.x < x) 

@@ -10,7 +10,7 @@ if other.bulletFrom != belongsTo.id and other.bulletTeam != belongsTo.team and h
 {
 	//闪光
 	hit = true;	
-	var bulletDamage = other.damage
+	var bulletDamage = other.damage - 2;//抵挡2点伤害
 	hp -= bulletDamage;
 	var damageNumber = instance_create_depth(x,y-30+random_range(-2,12),-1111,objDamage)
 	damageNumber.number = bulletDamage;

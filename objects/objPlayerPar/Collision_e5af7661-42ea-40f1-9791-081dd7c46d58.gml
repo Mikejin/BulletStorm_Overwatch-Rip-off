@@ -9,6 +9,7 @@ if other.image_index >=3 and other.image_index <=3
 {
 	if other.belongsTo != id and !dashing and alive and other.team != team
 	{
+		other.hitPlayer = true
 		//闪光
 		hit = true;
 		scr_shake(2);

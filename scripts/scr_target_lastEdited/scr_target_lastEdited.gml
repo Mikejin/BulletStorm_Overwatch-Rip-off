@@ -19,6 +19,7 @@ if (instance_number(e) > 0) {                       // Make sure there are atlea
         var distance = point_distance(x,y,currentinst.x,currentinst.y); // Get the distance from the tower to the current enemy
         if (distance <= range) and !collision_line(x,y,currentinst.x,currentinst.y,objBarrierPar,true,true) 
 		and currentinst.team != belongsTo.team and place_meeting(x,y,currentinst)
+		and currentinst.alive = true
 		{                                        // Check to see if the enemy is in range
             ds_list_add(inrange, currentinst);                          // Add the enemy in the "inrange" Ds List
         }

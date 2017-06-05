@@ -1,2 +1,2 @@
-/// @description 丢手雷
+/// @description 暂时没用
 canThrow = true;

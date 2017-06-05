@@ -1,5 +1,5 @@
-hp = 1000;
-hpMax = 1000;
+hp = 1300;
+hpMax = 1300;
 
 //激活状态
 active = false;

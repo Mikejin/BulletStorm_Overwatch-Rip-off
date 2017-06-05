@@ -48,6 +48,14 @@ if instance_exists(belongsTo) and view_current = belongsTo.playerNumber
 		}
 		break;
 		
+		case 5://堡垒
+		if belongsTo.switchingAura = true
+		{
+		draw_sprite_ext(sprDashBar,0,camX+camW-180,camY+camH-90,(round(belongsTo.alarm[2]))/belongsTo.switchTime,1,0,c_white,0.8);
+		//draw_text_transformed(camX+camW/2-10,camY+camH-53,global.heroArray[belongsTo.heroNumber,4],1,1,0)
+		}
+		break;
+		
 	}
 
 //弹药
@@ -71,7 +79,8 @@ if instance_exists(belongsTo) and view_current = belongsTo.playerNumber
 	draw_text_color(camX+camW-40,camY+camH-80,string(belongsTo.clipAmount),c_white,c_white,c_white,c_white,0.8)
 
 //大招蓄力
-	draw_text(camX+camW/2,camY+camH-70,round(belongsTo.ultimateCharge/belongsTo.ultimageMax*100))
+	
+	draw_text(camX+camW/2-2,camY+camH-120,round(belongsTo.ultimateCharge/belongsTo.ultimageMax*100))
 	draw_sprite_ext(global.heroArray[num,9],0,camX+camW/2,camY+camH-70,0.7,0.7,0,c_white,0.9)
 	draw_healthbar_circular(camX+camW/2,camY+camH-70,40,90,belongsTo.ultimateCharge/belongsTo.ultimageMax*100,spr_healthbar)
 }

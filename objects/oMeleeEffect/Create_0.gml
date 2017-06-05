@@ -4,3 +4,5 @@ team = noone;
 
 knockBack = 25;
 damage = 45;
+
+hitPlayer = false;

@@ -1,10 +1,11 @@
 bulletFrom = noone;
 damage = 0;
+initDamage = 0 ;
 knockBack = 4;
 passCover = true;
 hitPlayer = false;
 //checked = false;
-fallSpeed = 0.15;
+fallSpeed = 0.18;
 isGood = false;
 
 damping = 0.007

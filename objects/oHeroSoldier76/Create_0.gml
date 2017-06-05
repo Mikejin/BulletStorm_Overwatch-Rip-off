@@ -17,7 +17,8 @@ bulletType = objBulletRifle;
 reloadTime = 2.4 * room_speed;
 weaponOffset = 40;
 viewXscale = 2.7;
-ultimageMax = 1900;
+damping = 0.015
+ultimageMax = 1800;
 
 
 //特殊属性

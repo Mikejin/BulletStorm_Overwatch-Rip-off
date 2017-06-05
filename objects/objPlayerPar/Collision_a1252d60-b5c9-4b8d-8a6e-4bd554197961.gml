@@ -13,6 +13,7 @@ if other.bulletFrom != id  and !dashing and alive
 	{
 		if height >= other.height || other.aim = id//检查子弹高度是否低于身高。 aim的意思是被瞄准了，直接命中
 		{
+		//这条逻辑判断是不是打中玩家，用来检测大招蓄力
 		other.hitPlayer = true;
 		//闪光
 		hit = true;
@@ -43,18 +44,18 @@ if other.bulletFrom != id  and !dashing and alive
 		other.hitSth = true;
 		}
 			//被击中的粒子
-			for (i=0; i<random_range(2,4); i++)
+			for (i=0; i<random_range(1,3); i++)
 			{
 				with instance_create_depth(x,y,depth,oParticle)
 				{
 					direction = other.toBullet+random_range(-60,60);
 					image_angle = direction;
 					speed = random_range(4,8);
-					sprite_index = sprPlayerR;
-					image_xscale = random_range(0.15,0.3);
-					image_yscale = random_range(0.15,0.3);
-					alphaDamp = 0.005;
-					speedShrink = 0.97;
+					sprite_index = sprLightLine;
+					image_xscale = random_range(0.15,0.30);
+					image_yscale = random_range(0.15,0.30);
+					alphaDamp = 0.012;
+					speedShrink = 0.95;
 				}
 			}
 		}

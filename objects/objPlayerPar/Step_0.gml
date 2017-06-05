@@ -1,25 +1,27 @@
+//图像编号
 sprite_index = global.heroArray[heroNumber,5];
 //gamepad move
 if (gamepad_is_connected(playerNumber))
 {
 	scr_move_gamepad(playerNumber);	
-	script_execute(state);
 }
 
 //动作脚本
 if alive = true
 {
+//执行状态
+script_execute(state);
 //下蹲的脚本
 scr_crouch();
+//碰撞
+scr_collisions();
+//大招蓄力
+scr_ultCharge();
 
 //捡东西
 //scr_pickUp();
-
 //SHOOT
-
-scr_collisions();
 }
-
 
 mask_index = maskPlayer;
 
@@ -74,15 +76,10 @@ if clipAmmo > clipAmount
 	clipAmmo = clipAmount; //避免弹药溢出
 }
 
-//大招蓄力
-if ultimateCharge < ultimageMax 
+//退子弹
+if gamepad_button_check_pressed(playerNumber,gp_face4) and !reloading
 {
-	ultimateCharge += 4/room_speed
-}
-else
-{
-	ultimateCharge = ultimageMax
-	ultReady = true;
+	clipAmmo = 0;
 }
 
 //拉远视距
@@ -96,7 +93,7 @@ else
 }
 	
 //判断投掷物目标
-scr_target_throw(objPlayerPar,objGame.n)
+//scr_target_throw(objPlayerPar,objGame.n)
 
 //击中的闪光
 if (hit && alarm[3] <= 0) {
@@ -153,10 +150,6 @@ if hp < 0
 	alarm[5] = room_speed *6;
 	//instance_destroy()
 }
-
-
-//子弹和护甲数量限制
-if ammo > 80	{ammo = 80;}	
 
 //躲在掩体之后
 if place_meeting(x,y,oCoverCollision) and !firing

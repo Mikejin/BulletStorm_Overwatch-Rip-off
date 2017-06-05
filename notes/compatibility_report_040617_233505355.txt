@@ -1,0 +1,11 @@
+Converting GML script : ${project_dir}\scripts\draw_lensflare\draw_lensflare.gml
+Converted builtin : line 41 : view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 42 : view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 41 : view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 83 : view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 83 : view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 42 : view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin : line 44 : view_hview -> __view_get( e__VW.HView, 0 )
+Converted description : /// @description Lens flare by Esteban Devia
+
+added compatibility script draw/draw_set_blend_mode.gml
